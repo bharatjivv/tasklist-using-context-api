@@ -74,30 +74,39 @@ const TaskInput = () => {
         value={formData.entityName}
         onChange={handleChange}
       />
+      <br />
       <input
         name="taskType"
         placeholder="Task Type"
         value={formData.taskType}
         onChange={handleChange}
       />
+      <br />
+
       <input
         name="time"
         placeholder="Time"
         value={formData.time}
         onChange={handleChange}
       />
+      <br />
+
       <input
         name="contactPerson"
         placeholder="Contact Person"
         value={formData.contactPerson}
         onChange={handleChange}
       />
+      <br />
+
       <textarea
         name="note"
         placeholder="Note"
         value={formData.note}
         onChange={handleChange}
       />
+      <br />
+
       <button type="submit">Add Task</button>
     </form>
   );
